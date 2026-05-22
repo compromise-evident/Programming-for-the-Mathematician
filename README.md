@@ -286,3 +286,5 @@ repos
 long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
 
 try to avoid system(), but def use it for quick stuff
+
+"secure offline machines", RICIN
