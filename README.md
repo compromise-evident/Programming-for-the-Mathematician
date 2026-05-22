@@ -1,7 +1,5 @@
 <!-- (WiP) The shortest C++ intro right in the README, with deep and immediately useful samples below. Crunch files, infosec, or values of any size and precision, all at full speed. -->
 
-# Setup
-
 * ```apt install g++ geany```
 * Copy the following sample using the copy button.
 * Paste it in Geany and save it as anything.cpp in a folder.
@@ -253,21 +251,36 @@ int main()
 <br>
 <br>
 
-# That's it! Samples & tips:
+# (WiP) That's it! Samples & tips:
 
 (not yet sorted):
+
 my mathematical stuff in WhatNot
+
 RawVisual
+
 no mouse
+
 use long long for everything
+
 backups
+
 folders on desktop while building
+
 colorscheme
+
 versions
+
 logs
+
 licenses, copyright, patents, laws, google's license blacklist
+
 GitHub or other
+
 what repos should look like
+
 repos
+
 long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
+
 try to avoid system(), but def use it for quick stuff
