@@ -244,7 +244,7 @@ int main()
 	
 	
 	
-	/*Now go and solve the first few Project Euler problems and
+	/*Now go and solve any first few Project Euler problems and
 	problem 104, USING BRUTE FORCE AND ONLY WHAT YOU KNOW SO FAR!
 	
 	If you can do that, you can do anything. Now sure, your GitHub
