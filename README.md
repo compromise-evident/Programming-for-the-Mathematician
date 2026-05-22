@@ -238,8 +238,10 @@ int main()
 	
 	
 	
-	/*Now go and solve Project Euler problems 1-6, 12, and 104, using
-	only what you know so far. If you can do that, you can do anything.
+	/*Now go and solve Project Euler problems 1-6, 12, and 104, using only
+	what you know so far. If you can do that, you can do anything. Sure, your
+	GitHub is a résumé. But solving Project Euler puts you on a watchlist.
+	In fact, the NSA reserves your number theory publication rights.
 	
 	If you don't feel confident, you have not played with the code; you
 	simply don't love programming. But you can still utilize the following
