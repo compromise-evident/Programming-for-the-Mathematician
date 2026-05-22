@@ -251,7 +251,7 @@ int main()
 <br>
 <br>
 
-# (WiP) That's it! Samples & tips:
+# That's it! Samples & tips: (WiP)
 
 (not yet sorted):
 
