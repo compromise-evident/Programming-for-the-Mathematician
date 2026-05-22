@@ -218,34 +218,42 @@ Replace all your code with:
 #include <iostream>
 using namespace std;
 int main()
-{	//Arrays are many values in a list.
+{	//Arrays are like an int, but many.
 	int list[10] = {0};
 	
-	//Here, list is not a variable. It's an array.
-	//It contains 10 values, each of type int.
-	//Each value is initialized to zero.
-	//The index of the first value is 0.
-	//The index of the last value is 9.
+	/*list is not a variable. It's an array. An array of variables.
+	Each variable is of type int. These variables are called elements.
+	list contains 10 elements, each one initialized to zero.
+	
+	Arrays are zero-indexed, so in normal speech
+	list[0] contains the first element,
+	list[9] contains the last  element, so
+	
+	the index of the FIRST element is 0,
+	the index of the TENTH element is 9. */
 	
 	//The 5th element is set to 1000.
 	list[4] = 1000;
-	cout << list[4] << "\n\n";
+	cout << "element 5 = " << list[4] << "\n\n";
 	
-	//Prints each element.
+	//a happens to coincide with the index of each element,
+	//so a is printed. Then prints the value of each element.
 	for(int a = 0; a < 10; a++)
-	{	cout << "element " << a << " = " << list[a] << "\n";
+	{	cout << a << " = " << list[a] << "\n";
 	}
 	
 	
 	
-	/*Now go and solve the first few Project Euler problems, then problem 104,
-	using only what you know so far. If you can do that, you can do anything.
-	Now sure, your GitHub is a résumé. But solving Project Euler puts you on a
-	watchlist. In fact, the NSA reserves your number theory publication rights.
+	/*Now go and solve the first few Project Euler problems and
+	problem 104, USING BRUTE FORCE AND ONLY WHAT YOU KNOW SO FAR!
 	
-	If you don't feel confident, you have not played with the code; you
-	simply don't love programming. But you can still utilize the following
-	samples, and modify variables at their tops, labeled "YOUR CONTROLS". */
+	If you can do that, you can do anything. Now sure, your GitHub
+	is a résumé. But solving Project Euler puts you on a watchlist.
+	In fact, the NSA reserves your number theory publication rights.
+	
+	And if you don't feel confident, you haven't played with the code;
+	you simply don't love programming. But you can still utilize the
+	samples below, and adjust variables where it says "YOUR CONTROLS".*/
 }
 
 ```
