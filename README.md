@@ -1,4 +1,4 @@
-<!-- (WiP) The shortest C++ intro right in the README, with deep and immediately useful samples below. Crunch files, infosec, or values of any size and precision, all at full speed. -->
+<!-- The shortest C++ intro right in the README, with deep and immediately useful samples below. Crunch files, infosec, or values of any size and precision, all at full speed. -->
 
 * ```apt install g++ geany```
 * Copy the following using the copy button.
@@ -261,9 +261,9 @@ int main()
 <br>
 <br>
 
-# That's it! Samples & tips: (WiP)
+# That's it! Samples & tips:
 
-(not yet sorted):
+(This part is a Work in Progress, not yet sorted):
 
 my mathematical stuff in WhatNot
 
