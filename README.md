@@ -89,7 +89,7 @@ int main()
 	|| (a >= 0)
 	|| (a <= 0))
 	{	//Executes this body if ANY are true. (The if
-		//must be satisfied in order to execute its body.)
+		//must be satisfied in order to execute its body).
 	}
 	
 	if((a == 0)
