@@ -53,6 +53,7 @@ int main()
 	a++;    //a incremented by 1
 	a--;    //a decremented by 1
 	
+	a += (2 - 2);      //a + (2 - 2)
 	a = (a * 2);       //a * 2
 	a = ((a * 2) / 4); //a * 2 then a / 4
 	//a is now 2 after all these operations.
