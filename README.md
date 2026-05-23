@@ -300,4 +300,4 @@ try to avoid system(), but def use it for quick stuff
 my solution to Project Euler 104,
 in case the reader doesn't believe it can be done with
 brute force and by using only these basic C++ variables, loops, and arrays...
-variables which can't possibly handle 68,000-digit values.
+variables which can't possibly handle 68,855-digit values.
