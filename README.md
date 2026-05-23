@@ -296,3 +296,8 @@ long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
 try to avoid system(), but def use it for quick stuff
 
 "secure offline machines", RICIN
+
+my solution to Project Euler 104,
+in case the reader doesn't believe it can be done with
+brute force and by using only variables, loops, and arrays,
+variables which can't possibly handle 68,000-digit values.
