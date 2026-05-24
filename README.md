@@ -272,8 +272,6 @@ RawVisual
 
 no mouse
 
-use long long for everything
-
 backups
 
 folders on desktop while building
@@ -282,11 +280,16 @@ colorscheme
 
 what repos should look like
 
-long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
-
-try to avoid system(), but def use it for quick stuff
-
 "secure offline machines", RICIN
+
+<br>
+<br>
+
+### Try to avoid system() calls
+
+For example, just put ```#include <filesystem>``` at the top then do
+```long long size = filesystem::file_size("my_file"); //Gets file size in bytes without calls to bash.```
+This way, if someone wants to run your tool but doesn't have some package installed, it'll run anyway.
 
 <br>
 <br>
