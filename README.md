@@ -306,7 +306,7 @@ By law, everything you do, automatically includes the license "all rights reserv
 That's copyright. It means you can sue someone for having the same thoughts.
 But you can override this by including any license, such as the Unlicense.
 
-Most github repos use licenses with conditions,
+Most github repos have licenses with conditions,
 where if you took even a few lines of their code,
 you must forever keep visiting their repo, downloading
 their copyright notices, licenses, and names, and keep
