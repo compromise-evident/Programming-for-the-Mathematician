@@ -307,10 +307,11 @@ That's copyright. It means you can sue someone for having the same thoughts.
 But you can override this by including any license, such as the Unlicense.
 
 Most github repos use licenses with conditions,
-where if you took a few lines of their code,
-you must forever visit their repo, download
-their copyright notices and licenses, and
-include them in your project where those lines are used.
+where if you took even a few lines of their code,
+you must forever keep visiting their repo, downloading
+their copyright notices, licenses, and names, and keep
+including them in each and every one of your projects
+containing those lines of code.
 But still many repos are licensed under the Unlicense,
 without conditions, and you can look through those repos
 without the fear of being forever chained to a human and
