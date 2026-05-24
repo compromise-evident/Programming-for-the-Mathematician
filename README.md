@@ -317,7 +317,7 @@ your meticulous bash command can see what's command and what's file name.
 
 ### Use the date format 2026_05_24
 
-If these dates were names of files and folders, they would be sorted correctly on your computer.
+If these dates were names of files and folders, they would be sorted correctly on a computer.
 
 <br>
 <br>
