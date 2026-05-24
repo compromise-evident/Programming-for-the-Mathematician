@@ -284,8 +284,6 @@ versions
 
 logs
 
-licenses, copyright, patents, laws, google's license blacklist
-
 GitHub or other
 
 what repos should look like
@@ -302,3 +300,31 @@ my solution to Project Euler 104,
 in case the reader doesn't believe it can be done with
 brute force and by using only these basic C++ variables, loops, and arrays...
 variables which can't possibly handle 68,855-digit values.
+
+### Copyright & licenses
+
+By law, everything you do, automatically includes the license "all rights reserved".
+That's copyright. It means you can sue someone for having the same thoughts.
+But you can override this by including any license, such as the Unlicense.
+
+Most github repos use licenses with conditions,
+where if you took a few lines of their code,
+you must forever visit their repo, download
+their copyright notices and licenses, and
+include them in your project where those lines are used.
+But still many repos are licensed under the Unlicense,
+without conditions, and you can look through those repos
+without the fear of being forever chained to a human and
+its words, words enforced by handcuffs and prison time.
+
+<br>
+<br>
+
+### Clean Room Reverse Engineering (CRRE)
+
+* If your code has a restrictive license, person A reads your code and writes a description. (Dirty room).
+* Person B reads that description and writes unique code. (Clean room).
+* Now they can license their code under anything, such as the Unlicense.
+* They can't sue you for having a copy of your own code.
+* And most importantly, you can't sue them for having a copy of THEIR own code.
+* Unless patents, they created a functionally identical, unrestricted version of your code for everyone.
