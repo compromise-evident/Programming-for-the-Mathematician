@@ -280,10 +280,6 @@ folders on desktop while building
 
 colorscheme
 
-versions
-
-logs
-
 what repos should look like
 
 long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
@@ -291,6 +287,54 @@ long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
 try to avoid system(), but def use it for quick stuff
 
 "secure offline machines", RICIN
+
+<br>
+<br>
+
+### Log your projects
+
+```text
+deterministic-archiver
+
+
+
+Version 4.0.0   No system() or OS undesirables. New license: UNLICENSE. Warning:
+                not compatible with previous versions due to C++'s sorting.
+                2026_04_28
+
+Version 3.2.1   path is now string, not char; path length no longer limited. But
+                the cost is that single-quotes in paths are not handled.
+                2026_03_23
+
+Version 3.2.0   Declares  computer settings for  reproducibility  in things like
+                system() and bash. 3 environments set: setenv("LC_ALL", "C", 1);
+                setenv("LANG", "C", 1); setenv("LANGUAGE", "C", 1);   which made
+                this tool slightly faster BTW.
+                2026_03_11
+
+Version 3.1.0   Fixed a bug I forgot to test for. DO NOT USE PREVIOUS VERSIONS!!
+                2026_03_01
+
+Version 3.0.1   Archiving is slightly faster.
+                2026_02_28
+
+Version 3.0.0   Refactored archiving (option 1). Minimalist, cleaner.
+                2026_02_25
+
+Version 2.0.0   Not limited by the max number of files that can be open at once.
+                The Linux kernel allows only 1024 in_stream at once.   There are
+                things you can do, there are servers who can read from 1,000,000
+                files by having each one open simultaneously,   but Linux limits
+                you because otherwise,  an older computer might crash somewhere.
+                Added safety: return 1; if any in_stream.open() fails.
+                2026_02_25
+
+Version 1.0.0   Now was that so hard? How come none existed before this?????????
+                2026_02_17
+
+```
+
+(Your style of version numbers doesn't matter, as long as they're distinct.)
 
 <br>
 <br>
@@ -308,7 +352,7 @@ of holding "ctrl z" down to the changes you made hours ago. No mess.
 
 ### Naming files & folders
 
-Don't use spaces or other characters. Just letters, underscores, and dashes.
+Don't use spaces or other characters. Just letters, numbers, underscores, dashes, and periods.
 One day, this will save you from renaming impractically numerous things just so
 your meticulous bash command can see what's command and what's file name.
 
