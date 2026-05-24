@@ -278,6 +278,8 @@ backups
 
 folders on desktop while building
 
+while building, restart Geany constantly, so that ctrl+z goes back to where you're comfy
+
 colorscheme
 
 versions
