@@ -313,7 +313,7 @@ their updated copyright notices, licenses, and names, and keep
 including them in each and every one of your projects
 containing those few lines of code.
 But still many repos are licensed under the Unlicense,
-without conditions, and you can look through those repos
+which has no conditions, and you can look through those repos
 without the fear of being forever chained to a human and
 its words, words enforced by handcuffs and prison time.
 
