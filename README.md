@@ -274,7 +274,7 @@ no mouse
 
 use long long for everything
 
-backups, use dates only like 2026_05_24 so that if those dates were file names or folder names, they would be sorted correctly on a computer!
+backups
 
 folders on desktop while building
 
@@ -297,7 +297,8 @@ try to avoid system(), but def use it for quick stuff
 
 ### Restart Geany constantly
 
-While building software, close Geany when you're comfy with the code.
+While building software, close Geany when you're comfy with the code,
+so that Geany forgets all that undo and redo.
 This way, when you open Geany again and make changes that you don't like,
 you can "ctrl z" back to last saved or near it, without the possibility
 of holding "ctrl z" down to the changes you made hours ago. No mess.
@@ -310,6 +311,13 @@ of holding "ctrl z" down to the changes you made hours ago. No mess.
 Don't use spaces or other characters. Just letters, underscores, and dashes.
 One day, this will save you from renaming impractically numerous things just so
 your meticulous bash command can see what's command and what's file name.
+
+<br>
+<br>
+
+### Use the date format 2026_05_24
+
+If these dates were names of files and folders, they would be sorted correctly on your computer.
 
 <br>
 <br>
