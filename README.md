@@ -261,8 +261,11 @@ int main()
 
 <br>
 <br>
+# That's it - now samples & tips
 
-# That's it! Samples & tips:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Programming-for-the-Mathematician/refs/heads/main/Other/shortest_path.jpg">
+</p>
 
 (This part is a Work in Progress, not yet sorted):
 
