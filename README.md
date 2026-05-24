@@ -284,11 +284,7 @@ versions
 
 logs
 
-GitHub or other
-
 what repos should look like
-
-repos
 
 long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
 
@@ -300,6 +296,9 @@ my solution to Project Euler 104,
 in case the reader doesn't believe it can be done with
 brute force and by using only these basic C++ variables, loops, and arrays...
 variables which can't possibly handle 68,855-digit values.
+
+<br>
+<br>
 
 ### Copyright & licenses
 
