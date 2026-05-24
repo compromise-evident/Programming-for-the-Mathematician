@@ -274,7 +274,7 @@ no mouse
 
 use long long for everything
 
-backups
+backups, use dates only like 2026_05_24 so that if those dates were file names or folder names, they would be sorted correctly on a computer!
 
 folders on desktop while building
 
