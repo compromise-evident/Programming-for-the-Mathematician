@@ -278,8 +278,6 @@ backups, use dates only like 2026_05_24 so that if those dates were file names o
 
 folders on desktop while building
 
-while building, restart Geany constantly, so that ctrl+z goes back to where you're comfy
-
 colorscheme
 
 versions
@@ -293,6 +291,25 @@ long long size = filesystem::file_size("my_file"); //Gets file size in bytes.
 try to avoid system(), but def use it for quick stuff
 
 "secure offline machines", RICIN
+
+<br>
+<br>
+
+### Restart Geany constantly
+
+While building software, close Geany when you're comfy with the code.
+This way, when you open Geany again and make changes that you don't like,
+you can "ctrl z" back to last saved or near it, without the possibility
+of holding "ctrl z" down to the changes you made hours ago. No mess.
+
+<br>
+<br>
+
+### Naming files & folders
+
+Don't use spaces or other characters. Just letters, underscores, and dashes.
+One day, this will save you from renaming impractically numerous things just so
+your meticulous bash command can see what's command and what's file name.
 
 <br>
 <br>
