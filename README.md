@@ -287,6 +287,9 @@ what repos should look like
 
 ### Try to avoid system() calls
 
+In C++ you can do ```system("ls -Av path_to_folder > my_list.txt");```.
+That's equivalent to opening a terminal right now and doing what's quoted: ```ls -Av path_to_folder > my_list.txt```.
+But you should avoid calling to bash.
 For example, just put ```#include <filesystem>``` at the top then do
 ```long long size = filesystem::file_size("my_file"); //Gets file size in bytes without calls to bash.```
 This way, if someone wants to run your tool but doesn't have some package installed, it'll run anyway.
