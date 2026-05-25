@@ -398,9 +398,10 @@ its words, words enforced by handcuffs and prison time.
 
 ### Clean Room Reverse Engineering (CRRE)
 
-* If your code has a restrictive license, person A reads your code and writes a description. (Dirty room).
+Let's say you built something and it has a restrictive license, but someone wants to free your code.
+* Person A reads your code and writes a description. (Dirty room).
 * Person B reads that description and writes unique code. (Clean room).
-* Now they can license their code under anything, such as the Unlicense.
-* They can't sue you for having a copy of your own code.
-* And most importantly, you can't sue them for having a copy of THEIR own code.
-* Unless patents, they created a functionally identical, unrestricted version of your code for everyone.
+* Person B can license their code under anything, such as the Unlicense.
+* Person B can't sue you for having a copy of your own code.
+* And most importantly, you can't sue Person B for having a copy of THEIR own code.
+* Unless patents, Person B created a functionally identical, unrestricted version for all to enjoy.
