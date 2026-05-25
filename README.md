@@ -58,8 +58,6 @@ int main()
 	a = ((a * 2) / 4); //a * 2 then a / 4
 	//a is now 2 after all these operations.
 	
-	
-	
 	//if statements.
 	if(a == 2)
 	{	//The body of this "if" will be executed if a = 2.
@@ -103,41 +101,20 @@ int main()
 		//(This particular body will never run).
 	}
 	
-	
-	
 	//if, else statement.
-	if(a == 2)
-	{	//Your code...
-	}
-	else
-	{	//If the if is not satisfied, this body will ALWAYS run.
-	}
-	
-	
+	if(a == 2) {/*Your code here*/                                        }
+	else       {/*If the if is not satisfied, this body will ALWAYS run.*/}
+	//See how you can space things out and put bodies on the same line for aesthetics?
 	
 	//if, else if statements.
-	if(a == 2)
-	{	//Your code...
-	}
-	else if(a == 3)
-	{	//Your code...
-	}
-	else if(a == 4)
-	{	//You can have as many "else if" as you want, even 1.
-	}
-	
-	
+	if     (a == 2) {/*Your code here*/                                     }
+	else if(a == 3) {/*Your code here*/                                     }
+	else if(a == 4) {/*You can have as many "else if" as you want, even 1.*/}
 	
 	//if, else if, else statements.
-	if(a == 2)
-	{	//Your code...
-	}
-	else if(a == 3)
-	{	//Your code...
-	}
-	else if(a == 4)
-	{	//Your code...
-	}
+	     if(a == 2) {/*Your code here*/}
+	else if(a == 3) {/*Your code here*/}
+	else if(a == 4) {/*Your code here*/}
 	else
 	{	//If no cases are satisfied, this body will ALWAYS run.
 		return 0; //Terminates the program. You can put return 0; anywhere.
@@ -354,7 +331,7 @@ Version 1.0.0   Now was that so hard? How come none existed before this?????????
 While building software, close Geany when you're comfy with the code,
 so that Geany forgets all that undo and redo.
 This way, when you open Geany again and make changes that you don't like,
-you can "ctrl z" back to last saved or near it, without the possibility
+you can "ctrl z" back to last-saved or near it, without the possibility
 of holding "ctrl z" down to the changes you made hours ago. No mess.
 
 <br>
