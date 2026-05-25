@@ -27,7 +27,7 @@ int main()
 <br>
 <br>
 
-# Variables
+# 1. Variables
 
 Replace all your code with:
 
@@ -126,7 +126,7 @@ int main()
 <br>
 <br>
 
-# Loops
+# 2. Loops
 
 Replace all your code with:
 
@@ -186,7 +186,7 @@ int main()
 <br>
 <br>
 
-# Arrays
+# 3. Arrays
 
 Replace all your code with:
 
