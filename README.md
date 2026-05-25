@@ -265,7 +265,7 @@ int main()
 # That's it - optional samples & tips below
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Programming-for-the-Mathematician/refs/heads/main/Other/shortest_path.jpg">
+  <img src="Other/shortest_path.jpg">
 </p>
 
 (This part is a Work in Progress, not yet sorted):
