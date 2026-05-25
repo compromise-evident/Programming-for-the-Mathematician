@@ -1,4 +1,4 @@
-<!-- The shortest C++ intro right in the README, with deep and immediately useful samples below. Crunch files, infosec, or values of any size and precision, all at full speed. -->
+<!-- The shortest C++ intro right in the README with optional samples below. Crunch files, infosec, or values of any size and precision, all at full speed. -->
 
 * ```apt install g++ geany```
 * Copy the following using the copy button.
@@ -262,7 +262,7 @@ int main()
 <br>
 <br>
 
-# That's it - now samples & tips
+# That's it - optional samples & tips below
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Programming-for-the-Mathematician/refs/heads/main/Other/shortest_path.jpg">
