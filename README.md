@@ -403,5 +403,5 @@ Let's say you built something and it has a restrictive license, but someone want
 * Person B reads that description and writes unique code. (Clean room).
 * Person B can license their code under anything, such as the Unlicense.
 * Person B can't sue you for having a copy of your own code.
-* And most importantly, you can't sue Person B for having a copy of THEIR own code.
-* Unless patents, Person B created a functionally identical, unrestricted version for all to enjoy.
+* And most importantly, you can't sue person B for having a copy of THEIR own code.
+* Unless patents, person B created a functionally identical, unrestricted version for all to enjoy.
